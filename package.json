@@ -3,12 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@o2xp/react-datatable": "^1.1.44",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "lodash.orderby": "^4.6.0",
+    "memoize-one": "^5.1.1",
     "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0",
+    "react-contexify": "^4.1.1",
+    "react-context-menu": "^3.0.2",
+    "react-data-grid": "^7.0.0-alpha.29",
+    "react-data-table-component": "^6.3.1",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-fontawesome": "^1.7.1",
+    "react-js-pagination": "^3.0.3",
+    "react-scripts": "3.4.0",
+    "react-table": "^7.0.0",
+    "react-table-hoc-draggable-columns": "^1.2.2",
+    "styled-components": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

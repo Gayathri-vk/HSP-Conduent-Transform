@@ -1,0 +1,30 @@
+.Details-icons i,.Details-icons span select{
+  padding:5px;
+  cursor: pointer;
+}
+.dropdown-details-block{
+    background: #eee;
+    margin-bottom:30px;
+}
+.stylesheet-dropdown{
+    width: 50%;
+}
+.resize-zoom{
+    border: none;
+    background: #eee;
+}
+.Details-icons{
+    text-align: end;
+    padding-top:4px;
+}
+
+/*button styles  ----> stylesheet */
+.btn-block button{    
+    cursor: pointer;
+}
+.btn-block button{
+    border: none;
+    background: #fff;
+    color: blue;
+    cursor: pointer;
+}

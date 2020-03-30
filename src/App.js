@@ -1,26 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import ContractTable from './components/contractTable';
+// import ReactTable from './components/reactTable'
+import HspDetail from "./components/hspDetails";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App row">
+      <div className="col-3">Left Navigation</div>
+      <div className="col-9">
+        <HspDetail/>
+      </div>
     </div>
   );
 }
-
 export default App;
