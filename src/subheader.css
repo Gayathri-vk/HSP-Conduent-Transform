@@ -1,0 +1,19 @@
+.subheader-block .breadcrumb{
+   background : #fff;
+   margin:0;
+   padding:0;
+}
+.sheader-btn-block{
+    text-align:end;
+}
+.arrowBlock{
+    max-width: 4% !important;   
+    cursor: pointer;
+    border:none;
+    background: #eee;
+    margin-right: 10px;
+}
+.sheader-btn-block span i{
+    padding:10px;
+    cursor: pointer;
+}

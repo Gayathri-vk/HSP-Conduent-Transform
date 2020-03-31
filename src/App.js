@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
-// import ContractTable from './components/contractTable';
-// import ReactTable from './components/reactTable'
+import SubHeader from './components/subHeader';
 import HspDetail from "./components/hspDetails";
 
+
+const breadCrumItems = ['Provider','Contracts']
 function App() {
   return (
     <div className="App row">
       <div className="col-3">Left Navigation</div>
-      <div className="col-9">
-        <HspDetail/>
+      <div className="col-9">        
+        {/* <HspDetail/> */}
+        <SubHeader breadcrums = {breadCrumItems}/>
       </div>
     </div>
   );

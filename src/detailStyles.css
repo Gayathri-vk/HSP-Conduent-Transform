@@ -21,6 +21,7 @@
 /*button styles  ----> stylesheet */
 .btn-block button{    
     cursor: pointer;
+    margin-top:30px;
 }
 .btn-block button{
     border: none;
