@@ -5,7 +5,7 @@ export default class subHeader extends Component {
     constructor(props){
        super(props)
        this.state = {
-           isAllow: true
+           isAllow: false
        }
     }
     arrowBackHandler = () =>{
@@ -43,7 +43,7 @@ export default class subHeader extends Component {
                         <i class="fa fa-search" aria-hidden="true" onClick={this.iconHandler}></i>
                         <i class="fa fa-ellipsis-h" aria-hidden="true" onClick={this.iconHandler}></i>
                     </span> :
-                    <Button variant="primary">Create Contracts</Button> 
+                    <Button variant="primary" onClick={this.iconHandler}>Create Contracts</Button> 
                 }
                 </div> 
             </div>
